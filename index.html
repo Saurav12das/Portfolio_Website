@@ -5,23 +5,18 @@
         background-color: azure;
     }
     .avatar{
-        position: relative;
-        width: 500px;
-        height: 500px;
-        overflow: hidden;
+       padding: 100px;
+    }
+    .user{
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
-        margin-left: -50px;
-    }
-    .avatar img{
-        width: 100%;
-        height: 100%;
-        float: right;
-    }
-
+        object-fit: cover;
+        object-position: center right;
 </style>
 
 <html>
     <div class = "avatar">
-        <img src="img/pr_1.jpeg" alt="my picture">
+        <img class = "user" src="img/pr_1.jpeg" alt="my picture">
     </div>
 </html>

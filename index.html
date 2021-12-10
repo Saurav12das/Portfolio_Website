@@ -1,5 +1,70 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial - scale = 1.0">
+        <title>Saurav's Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.00/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    </head>
 
+    <body>
+        <header>
+            <button class = "nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class = "nav__list">
+                    <li class="nav__item"><a class = "active" href="#home" class = "nav__link">home</a></li>
+                    <li class="nav__item"><a href = "#research" class = "nav__link" >research</a></li>
+                    <li class="nav__item"><a href = "publication" class = "nav__link">publication</a></li>
+                    <li class="nav__item"><a href="books.html" class = "nav__link">books</a></li>
+                    <li class="nav__item"><a href = "movies.html" class = "nav__link">movies</a></li>
+                    <li class="nav__item"><a href = "vlog.html" class = "nav__link">vlog</a></li>
+                    <li class="nav__item"><a href= "contact.html" class = "nav__link">contact me</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id = "home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Saurav Das</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">soil scientist</p>
+            <img class = "user" src="img/pr_1.jpeg" alt="my picture">
+        </section>
+
+        <!-- My Research Areas -->
+        <section class="my-research" id="research">
+            <h2 class="section__title section__title --research">What I do</h2>
+            <!-- research -->
+            <div class="research">
+                <h3>Soil and Plant Microbiology</h3>
+                <p></p>
+            </div> 
+            <!-- research -->
+            <div class="research">
+                <h3>Soil Health and Biogeochemistry</h3>
+                <p></p>
+            </div> 
+            <!-- research -->
+            <div class="research">
+                <h3>Data Driven Agriculture</h3>
+                <p></p>
+            </div> 
+            <a href="#CV" class="btn">My CV</a>
+        </section>
+    </body>
+
+ </html>
+
+
+
+ 
 <style>
     body{
         background-color: azure;
@@ -17,22 +82,3 @@
     }
     .top
 </style>
-
-<html>
-    <div class="topnav">
-        <a class = "active" href="#home">home</a>
-        <a href = "research.html">research</a>
-        <a href = "publication">publication
-        </a>
-        <a href="science.html">science</a>
-        <a href = "book.html">book</a>
-        <a href = "movies.html">movies</a>
-        <a href= "contact.html">contact me</a>
-    </div>
-
-    <div class = "avatar">
-        <img class = "user" src="img/pr_1.jpeg" alt="my picture">
-    </div>
-
-
- </html>
